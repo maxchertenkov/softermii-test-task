@@ -1,0 +1,13 @@
+.about-blk {
+	text-align: center;
+	padding: 25px 0;
+	.about-main-title {
+		font-size: 24px;
+		color: $fav-brands-title-color;
+		margin-bottom: 15px;
+	}
+	.about-text {
+		font-size: 14px;
+		color: $simple-text-color;
+	}
+}

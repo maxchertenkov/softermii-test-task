@@ -1,0 +1,126 @@
+.highlights-block {
+	margin: 40px 0;
+	.big-hightlight {
+		position: relative;
+		display: block;
+		.big-hightlight-message {
+			position: absolute;
+			text-align: center;
+			width: 300px;
+			top: 65px;
+    		right: 10px;
+			.best {
+				color: #414141;
+				font-size: 34px;
+				font-family: HelveticaReg; 
+				text-transform: uppercase;
+				margin-bottom: 15px;
+			}
+			.outfits {
+				color: #414141;
+				font-size: 75px;
+				font-family: HelveticaThin;
+				text-transform: uppercase;
+			}
+			.amp {
+				background: #414141;
+				color: #fff;
+				font-size: 22px;
+				font-family: HelveticaThin;
+				text-align: center;
+				padding: 6px 0 0 0;
+				width: 30px;
+				height: 24px;
+				border-radius: 25px;
+				display: block;
+				margin: 0px auto 20px;;
+			}
+			.looks {
+				font-size: 82px;
+				color: #4fafa0;
+				font-family: HelveticaThin;
+				text-transform: uppercase;
+			}
+		}
+	}
+	.med-highlight {
+		position: relative;
+		display: block;
+		.med-hightlight-message {
+			    position: absolute;
+			    top: 25px;
+			    left: 25px;
+			    background: #fff;
+			    width: 130px;
+			    height: 130px;
+			    text-align: center;
+			    border-radius: 100px;
+			    box-shadow: 0 5px 5px 0px rgba(0,0,0,0.5);
+			.inner-border {
+				width: 120px;
+				height: 120px;
+				border: 1px solid #dbeaeb;
+				text-align: center;
+				margin: 4px auto 0;
+				border-radius: 100px;
+			}
+			.summer {
+				font-family: Bello;
+				font-size: 22px;
+				margin: 25px 0 5px;
+				color: #ffa687;
+			}
+			.party {
+				font-family: HelveticaThin;
+				color: #c1aea8;
+				font-size: 34px;
+				margin-bottom: 0px;
+				text-transform: uppercase;
+			}
+			.collection {
+				font-size: 12px;
+				color: #6a6a6a;
+				font-family: HelveticaReg;
+				text-transform: uppercase;
+			}
+		}
+	}
+	.small-highlight {
+		display: block;
+		position: relative;
+		.small-hightlight-message {
+			position: absolute;
+			top: 130px;
+			left: 20px;
+			.best-sellers {
+				font-family: HelveticaThin;
+				color: #fff;
+				font-size: 24px;
+				text-transform: uppercase;
+			}
+		}
+		.small-hightlight-message2 {
+			position: absolute;
+			top: 35px;
+			left: 20px;
+			.fall {
+				font-family: HelveticaThin;
+				color: #fff;
+				font-size: 24px;
+				text-transform: uppercase;
+				text-align: center;
+				margin: 0 0 10px 0;
+			}
+			.shop-now {
+				background: #4fafa0;
+				text-transform: uppercase;
+				font-family: HelveticaThin;
+				font-size: 12px;
+				line-height: 30px;
+				padding: 5px 10px;
+				text-align: center;
+				color: #fff;
+			}
+		}
+	}
+}

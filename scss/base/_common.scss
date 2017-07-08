@@ -5,6 +5,11 @@ body {
 	width: 970px;
 	margin: 0 auto;
 }
+.align-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 .flex-between {
 	display: flex;
 	justify-content: space-between;

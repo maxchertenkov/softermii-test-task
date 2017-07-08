@@ -1,0 +1,48 @@
+.stay-updated-blk {
+	background: $stay-updated-general-dark-bg;
+	color: $stay-updated-main-color;
+	.newsletter-form-blk {
+		.newsletter-form-title {
+			font-size: 12px;
+			padding-right: 5px;
+		}
+		.newsletter-form-input {
+			border: none;
+			background: #fff;
+			width: 120px;
+			height: 30px;
+			padding: 0 0 0 10px;
+			font-style: italic;
+		}
+		.newsletter-form-submit {
+			border: none;
+			background: $main-button-bg-color;
+			color: #fff;
+			font-weight: bold;
+			font-size: 24px;
+			line-height: 21px;
+			text-align: center;
+			width: 30px;
+			height: 30px;
+			border-bottom: 2px solid $main-button-border-color;
+			cursor: pointer;
+		}
+	}
+	.social-blk {
+		.social-title {
+			font-size: 12px;
+			padding-right: 5px;
+		}
+		.social-link {
+			width: 50px;
+			height: 38px;
+			padding-top: 12px;
+			text-align: center;
+			font-size: 24px;
+			display: inline-block;
+		}
+		.light-colored {
+			background: $stay-updated-general-light-bg;
+		}
+	}
+} 
