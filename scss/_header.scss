@@ -1,0 +1,123 @@
+.top-header {
+	background: #000;
+}
+.custom-care-contact {
+	
+}
+.custom-care-contact {
+	color: #fff;
+	margin: 7px 0;
+}
+.custom-care-contact-title {
+	text-transform: uppercase;
+	font-size: 11px;
+}
+.custom-care-contact-link {
+	font-size: 12px;
+}
+.personal-settings-blk {
+	border-left: 1px solid $top-header-gray;
+	border-right: 1px solid $top-header-gray;
+}
+.currency-selector-blk {
+	position: relative;
+	border-right: 1px solid $top-header-gray;
+	.currency-dropdown-title {
+		color: #fff;
+		font-size: 11px;
+		padding: 9px 30px 0px 15px;
+		cursor: pointer;
+		width: 35px;
+	}
+	.currency-dropdown {
+		display: none;
+		position: absolute;
+    	top: 30px;
+    	left: 0;
+    	background: #000;
+    	cursor: pointer;
+		&.open {
+			display: block;
+		}
+	}
+	.currency-item {
+		color: #fff;
+		font-size: 11px;
+		padding: 5px 22px 5px 15px;
+	}
+	.hidden {
+		display: none;
+	}
+	&:after {
+		content: '\f0d7';
+		font-family: FontAwesome;
+		color: #fff;
+		position: absolute;
+		top: 5px;
+		right: 10px;
+	}
+}
+.account-link-blk {
+	border-right: 1px solid $top-header-gray;
+	padding: 7px 15px;
+	color: #fff;
+	font-size: 11px;
+	.account-icon {
+		color:  $top-header-gray;
+		font-size: 13px;
+	}
+	.account-link {
+		text-transform: uppercase;
+	}
+} 
+.search-blk {
+	padding: 7px 15px;
+	color: #fff;
+	.search-icon {
+		font-size: 13px;
+		cursor: pointer;
+	}
+	.search-field {
+		display: none; 
+		background: none;
+    	border: 1px solid #444;
+    	border-radius: 25px;
+    	margin-left: 5px;
+	}
+}
+.logo-blk {
+    margin: 40px 0 40px 0;
+}
+.main-nav {
+	width: 450px;
+	margin: 50px 0 0 0;
+	.nav-item {
+		display: block;
+		.nav-item {
+			font-size: 16px;
+			color: #000;
+		}
+	}
+}
+.cart-blk {
+	border: 1px solid $top-header-lightgray;
+	color: #949393;
+	margin: 22px 0;
+	width: 215px;
+	.cart-top {
+		padding: 8px 10px;
+		border-bottom: 1px solid $top-header-lightgray;
+		.cart-title {
+			font-size: 12px;
+		}
+	}
+	.cart-bottom {
+		padding: 8px 10px;
+		background: #fafafa;
+		.cart-items {
+			text-transform: uppercase;
+			font-size: 11px;
+			padding: 3px 0 0 0;
+		}
+	}
+}

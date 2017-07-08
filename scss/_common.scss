@@ -1,0 +1,12 @@
+body {
+	font-family: $primary-font;
+}
+.wrapper {
+	width: 970px;
+	margin: 0 auto;
+}
+.flex-between {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
