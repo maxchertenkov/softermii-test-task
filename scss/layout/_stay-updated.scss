@@ -46,3 +46,37 @@
 		}
 	}
 } 
+
+@media screen and (min-width: 640px) and (max-width: 759px) {
+	.stay-updated-blk {
+		background: #fff;
+		.newsletter-form-blk {
+			.newsletter-form-title {
+				display: none;
+			}
+			.newsletter-form-input {
+				font-size: 30px;
+				width: 500px;
+				height: 98px;
+				background: $stay-updated-general-light-bg;
+			}
+			.newsletter-form-submit {
+				width: 98px;
+				height: 98px;
+				font-size: 50px;
+			}
+
+		}
+		.social-blk  {
+			margin: 25px auto;
+			.social-title { 
+				font-size: 30px;
+			}
+			.social-link {
+				width: 80px;
+			    height: 60px;
+			    font-size: 40px;
+			}
+		}
+	}
+}

@@ -72,6 +72,10 @@
 			border-right: none;
 		}
 	}
+	.footer-mob-menu-link {
+		display: none;
+		font-size: 30px;
+	}
 }
 
 @media screen and (min-width: 760px) and (max-width: 970px) {
@@ -87,5 +91,26 @@
 	}
 }
 @media screen and (min-width: 640px) and (max-width: 759px) {
-
+	.payments-blk {
+		display: none;
+	}
+	.main-footer {
+		display: none;
+	}
+	.bottom-footer {
+		.footer-mob-menu-link {
+			display: block;
+		}
+		ul {
+			display: none;
+		}
+		.bottom-nav-item {
+			padding: 10px 0;
+    		border-right: none;
+			font-size: 30px;
+		}
+		.copyright-blk {
+			font-size: 24px;
+		}
+	}
 }

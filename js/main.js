@@ -18,10 +18,17 @@ $(document).ready(function(){
   });
   //********************
 
-  // Mobile menu toggle 
+  // Header mobile menu toggle 
   $('.mob-menu-link').click(function(e) {
     e.preventDefault();
     $( ".mob-menu-link-list" ).slideToggle('slow')
+  });
+  //*******************
+
+  // Footer mobile menu toggle 
+  $('.footer-mob-menu-link').click(function(e) {
+    e.preventDefault();
+    $( ".bottom-footer ul" ).slideToggle('slow')
   });
   //*******************
 
@@ -114,10 +121,7 @@ $(document).ready(function(){
       },
       {
         breakpoint: 640,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2
-        }
+        settings: "unslick"
       }
     ]
   });

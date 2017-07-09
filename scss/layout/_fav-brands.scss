@@ -24,3 +24,8 @@
 		align-items: center;
 	}
 }
+@media screen and (min-width: 640px) and (max-width: 759px) {
+	.fav-brands-blk {
+		display: none;
+	}
+}

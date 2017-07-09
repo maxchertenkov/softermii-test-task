@@ -126,4 +126,70 @@
 		}
 	}
 }
+	.load-more-mob {
+		display: none;
+	    width: 200px;
+	    height: 30px;
+	    background: #000;
+	    text-align: center;
+	    font-size: 20px;
+	    color: #fff;
+	    text-transform: uppercase;
+	    padding: 10px 0 0 0;
+	    margin: 10px auto;
+	}
 }
+
+@media screen and (min-width: 640px) and (max-width: 759px) {
+	.product-slider-controls {
+		display: none;
+	}
+	.product-slider-blk {
+		.product-slider-top-controls {
+			.product-slider-tabs {
+				width: 100%;
+				.product-slider-tabs-item {
+					display: none;
+					position: relative;
+					&.active {
+						display: block;
+						width: 100%;
+						background: #f4845d;
+						&:after {
+							content: '\f0d7';
+							font-family: FontAwesome;
+							color: #fff;
+							font-size: 20px;
+							display: block;
+							position: absolute;
+							right: 20px;
+							top: 18px;
+						}
+					}
+				}
+			}
+		}
+		.product-slider {
+			background: #fd926d;
+			.product-slider-item {
+				display: none!important;
+			}
+			.product-slider-item:nth-child(1) {
+				display: block!important;
+			}
+			.product-slider-item:nth-child(2) {
+				display: block!important;
+			}
+		}
+		.slick-track[style] {
+		    width: 100% !important;
+		    transform: none !important;
+		    justify-content: space-around;
+    		display: flex;
+		}
+		.load-more-mob {
+			display: block;
+		}
+	}
+}
+

@@ -147,5 +147,91 @@
 	}
 }
 @media screen and (min-width: 640px) and (max-width: 759px) {
-
+	.main-nav {
+		display: none;
+	}
+	.mob-nav {
+		display: block;
+		font-size: 30px;
+		.mob-menu-link {
+			
+		}
+		.mob-menu-link-list {
+			display: none;
+		}
+	}
+	.top-header {
+		background: none;
+		.custom-care-contact {
+			width: 100%;
+			text-align: center;
+			color: #838383;
+			.custom-care-contact-title {
+				font-size: 30px;
+			}
+			.custom-care-contact-link {
+				font-size: 30px;
+			}
+		}
+		.personal-settings-blk {
+			background: #000;
+			width: 100%;
+			.currency-selector-blk {
+				.currency-dropdown-title {
+				    font-size: 30px;
+				    padding: 9px 30px 9px 15px;
+				    cursor: pointer;
+				    width: initial;
+				}
+				&:after {
+					top: 15px;
+				}
+			}
+			.currency-dropdown.open {
+				top: 47px;
+			}
+			.currency-item {
+			    font-size: 30px;
+    			padding: 5px 8px 5px 15px;
+			}
+			.account-link-blk {
+				font-size: 30px;
+				.account-icon {
+					font-size: 30px;
+				}
+			}
+			.search-blk {
+				.search-icon {
+					font-size: 30px;
+				}
+			}
+		}
+	}
+	.logo-blk {
+	    width: 100%;
+	    text-align: center;
+	    .logo-link {
+	    	background: url('../img/mob-logo.png') no-repeat;
+	    	background-position: center center;
+	    	width: 360px;
+	    	height: 90px;
+	    	display: block;
+	    	margin: 0 auto;
+	    }
+	    img {
+	    	display: none;
+	    }
+	}
+	.cart-blk {
+		width: 100%;
+		font-size: 30px;
+		.cart-top {
+			display: none;
+		}
+		.cart-bottom {
+			.cart-items {
+				font-size: 30px;
+			}
+		}
+	}
 }
