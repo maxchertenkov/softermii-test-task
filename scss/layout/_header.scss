@@ -99,6 +99,19 @@
 		}
 	}
 }
+.mob-nav {
+	display: none;
+	width: 710px;
+    margin: 0 auto 15px;
+    background: $main-button-bg-color;
+    padding: 20px 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    .nav-item {
+    	margin: 10px 0;
+    }
+}
 .cart-blk {
 	border: 1px solid $top-header-lightgray;
 	color: #949393;
@@ -119,5 +132,20 @@
 			font-size: 11px;
 			padding: 3px 0 0 0;
 		}
+	} 
+}
+
+@media screen and (min-width: 760px) and (max-width: 970px) {
+	.main-nav {
+		display: none;
 	}
+	.mob-nav {
+		display: block;
+		.mob-menu-link-list {
+			display: none;
+		}
+	}
+}
+@media screen and (min-width: 640px) and (max-width: 759px) {
+
 }

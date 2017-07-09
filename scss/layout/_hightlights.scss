@@ -124,3 +124,83 @@
 		}
 	}
 }
+
+@media screen and (min-width: 760px) and (max-width: 970px) {
+	.highlights-block {
+		.big-hightlight {
+			width: 360px;
+			img {
+				width: 360px;
+			}
+			.big-hightlight-message {
+				width: 200px; 
+				top: 40px;
+				.best {
+					font-size: 20px;
+					margin: 0 0 5px;
+				}
+				.outfits {
+					font-size: 50px;
+				}
+				.amp {
+					margin: 0 auto 10px;
+				}
+				.looks {
+					font-size: 60px;
+				}
+			}
+		}
+		.med-highlight {
+			width: 360px;
+			img {
+				width: 360px;
+			}
+			.med-hightlight-message {
+				top: 12px;
+			    left: 15px;
+			    width: 100px;
+			    height: 100px;
+			    .inner-border {
+			    	width: 90px;
+			    	height: 90px;
+			    }
+			    .summer {
+			    	font-size: 16px;
+    				margin: 20px 0 5px;
+			    }
+			    .party {
+			    	font-size: 20px;
+			    }
+			    .collection {
+			    	font-size: 9px;
+			    }
+			}
+		}
+		.small-highlight {
+			width: 180px;
+			img {
+				width: 180px;
+			}
+			.small-hightlight-message {
+				top: 90px;
+				left: 10px;
+				.best-sellers {	
+					font-size: 20px;
+				}
+			}
+			.small-hightlight-message2 {
+			    top: 30px;
+    			left: 10px;
+				.fall {
+					font-size: 20px;
+				}
+				.shop-now {
+					padding: 0px 5px;
+				}
+			}
+		}
+	}
+}
+@media screen and (min-width: 640px) and (max-width: 759px) {
+
+}

@@ -20,3 +20,13 @@ body {
     display:table;
     clear:both;
 }
+
+@media screen and (min-width: 760px) and (max-width: 970px) {
+	.wrapper {
+		width: 730px;
+		padding: 0 15px;
+	}
+}
+@media screen and (min-width: 640px) and (max-width: 759px) {
+
+}

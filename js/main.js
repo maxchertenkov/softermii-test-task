@@ -18,6 +18,13 @@ $(document).ready(function(){
   });
   //********************
 
+  // Mobile menu toggle 
+  $('.mob-menu-link').click(function(e) {
+    e.preventDefault();
+    $( ".mob-menu-link-list" ).slideToggle('slow')
+  });
+  //*******************
+
 });
 
 
@@ -91,7 +98,28 @@ $(document).ready(function(){
     nextArrow: '<a class="next-slide product-slider-arrow"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>',
     infinite: true,
     slidesToShow: 5,
-    adaptiveHeight: true
+    adaptiveHeight: true,
+    responsive: [
+      {
+        breakpoint: 980,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 760,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 640,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      }
+    ]
   });
 });
 
