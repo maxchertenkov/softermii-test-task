@@ -15,3 +15,8 @@ body {
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
+.clearfix:after {
+    content:" ";
+    display:table;
+    clear:both;
+}

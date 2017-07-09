@@ -1,0 +1,99 @@
+.clearence-blk {
+	margin: 0 0 50px;
+	.clearence-line {
+		background: $fav-brands-color;
+		height: 1px;
+		width: 390px;
+	}
+	.clearence-badge {
+		background: url(../img/clearence-bg.png) no-repeat;
+		height: 158px;
+		width: 158px;
+		text-align: center;
+		color: #fff;
+		font-family: aEmpirial;
+		margin: 0 0 25px;
+		.clearence {
+			font-size: 36px;
+			margin: 30px 0 0;
+		}
+		.disc-ammount {
+			width: 65px;
+			margin: 0 auto;
+		}
+		.discount-num {
+			font-size: 80px;
+			float: left;
+		}
+		.percentage {
+			font-size: 36px;
+			float: left;
+		}
+	}
+	.clearence-item {
+		width: 220px;
+		.clearence-item-img-link {
+			display: block;
+			position: relative;
+			.sale-badge {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 50px;
+				height: 50px;
+				background:  #4c4c4c;
+				.sale-badge-text {
+					color: #fff;
+					text-transform: uppercase;
+					font-size: 10px;
+					margin: 3px 0 0 3px;
+				}
+				&:after {
+					content: '';
+					position: absolute;
+					top: 0;
+					left: 0;
+					border: 25px solid transparent;	
+					border-right: 25px solid #fff; 
+					border-bottom: 25px solid #fff;
+				}
+			}
+		}
+		.clearence-item-description {
+			background: $stay-updated-general-light-bg;
+			padding: 10px 0;
+			text-align: center;
+			.clearence-item-title {
+				font-size: 12px;
+				text-transform: uppercase;
+				color: #373737;
+				margin-bottom: 5px;
+				display: inline-block;
+			}
+			.clearence-item-price {
+				font-size: 22px;
+				text-transform: uppercase;
+				color: #373737;
+				margin-bottom: 5px;
+			}
+			.clearence-item-add-btn {
+			    width: 120px;
+			    height: 20px;
+			    cursor: pointer;
+			    padding-top: 10px;
+			    background: #fd926d;
+			    border-bottom: 2px solid #dd6b44;
+			    text-align: center;
+			    color: #fff;
+			    text-transform: uppercase;
+			    font-family: HelveticaThin;
+			    font-size: 12px;
+			    display: block;
+			    margin: 0 auto;
+			}
+		}
+	}
+}
+
+
+
